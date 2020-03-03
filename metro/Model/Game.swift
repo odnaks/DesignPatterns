@@ -18,9 +18,17 @@ class GameSession {
     }
 }
 
+class Result {
+    let date = Date()
+    let score: Int
+    init(score: Int) {
+        self.score = score
+    }
+}
+
 class Game {
     static let shared = Game()
-    var results = [Int]()
+    var results = [Result]()
     var gameSession: GameSession?
     
     private init(){}
