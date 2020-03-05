@@ -34,7 +34,6 @@
 		5E6525EA24118D7200F161EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5E6525EC24118DEE00F161EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		5E6525EE24118E1500F161EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5E6525F12411962800F161EB /* Questions.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Questions.json; sourceTree = "<group>"; };
 		5EEED8A3240EEDF50023CEE8 /* metro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EEED8AD240EEDF50023CEE8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5EEED8AF240EEDFB0023CEE8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,14 +57,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5E6525F02411960800F161EB /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				5E6525F12411962800F161EB /* Questions.json */,
-			);
-			path = Resources;
-			sourceTree = "<group>";
-		};
 		5E6525F224119B0600F161EB /* View */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,7 +91,6 @@
 		5EEED89A240EEDF50023CEE8 = {
 			isa = PBXGroup;
 			children = (
-				5E6525F02411960800F161EB /* Resources */,
 				5EEED8A5240EEDF50023CEE8 /* metro */,
 				5EEED8A4240EEDF50023CEE8 /* Products */,
 			);
