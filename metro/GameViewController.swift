@@ -43,6 +43,15 @@ class GameViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
+        labelAnswer1.lineBreakMode = .byWordWrapping
+        labelAnswer1.numberOfLines = 0
+        labelAnswer2.lineBreakMode = .byWordWrapping
+        labelAnswer2.numberOfLines = 0
+        labelAnswer3.lineBreakMode = .byWordWrapping
+        labelAnswer3.numberOfLines = 0
+        labelAnswer4.lineBreakMode = .byWordWrapping
+        labelAnswer4.numberOfLines = 0
+        
         labelQuestion.lineBreakMode = .byWordWrapping
         labelQuestion.numberOfLines = 0
         

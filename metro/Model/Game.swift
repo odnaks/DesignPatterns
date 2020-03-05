@@ -8,28 +8,19 @@
 
 import Foundation
 
-class GameSession {
-    let numberOfAllQuestions: Int
-    var numberOfCorrectAnswer: Int
-    
-    init(numberOfAllQuestions: Int) {
-        self.numberOfAllQuestions = numberOfAllQuestions
-        self.numberOfCorrectAnswer = 0
-    }
-}
-
-class Result {
-    let date = Date()
-    let score: Int
-    init(score: Int) {
-        self.score = score
-    }
-}
-
 class Game {
     static let shared = Game()
-    var results = [Result]()
+    
+    private let resultsCaretaker = ResultCaretaker()
+    var results: [Result] {
+        didSet {              
+            resultsCaretaker.save(results: self.results)
+        }
+    }
     var gameSession: GameSession?
     
-    private init(){}
+    private init(){
+        self.results = self.resultsCaretaker.retrieveRecords()
+    }
+
 }
