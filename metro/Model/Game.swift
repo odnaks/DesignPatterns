@@ -10,6 +10,7 @@ import Foundation
 
 class Game {
     static let shared = Game()
+    var strategyQuestions: StrategyQuestions = .norm
     
     private let resultsCaretaker = ResultCaretaker()
     var results: [Result] {

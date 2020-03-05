@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  metro
 //
-//  Created by Ksenia on 03.03.2020.
+//  Created by Ksenia on 05.03.2020.
 //  Copyright © 2020 Ksenia. All rights reserved.
 //
 
@@ -17,4 +17,3 @@ class ViewController: UIViewController {
 
 
 }
-

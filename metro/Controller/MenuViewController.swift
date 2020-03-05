@@ -18,12 +18,8 @@ class MenuViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let gameSession = GameSession(numberOfAllQuestions: 11)
-        Game.shared.gameSession = gameSession
         
-        // Do any additional setup after loading the view.
     }
-
 
 }
 
